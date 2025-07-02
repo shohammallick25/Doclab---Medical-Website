@@ -9,9 +9,14 @@
   <!-- 
     - primary meta tags
   -->
-  <title>Doclab - Shoham</title>
+  <title>Doclab || Shoham</title>
   <meta name="title" content="Doclab - home">
   <meta name="description" content="This is a medical html template made by shohammallick">
+
+  
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2196f3" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
 
   <!-- 
     - favicon
@@ -1197,6 +1202,20 @@
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+        navigator.serviceWorker.register('./service-worker.js')
+          .then(function(registration) {
+            console.log('✅ Service Worker registered with scope:', registration.scope);
+          })
+          .catch(function(error) {
+            console.log('❌ Service Worker registration failed:', error);
+          });
+      });
+    }
+</script>
+  
 </body>
 
 </html>
