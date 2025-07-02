@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Doclab - Shoham</title>
+  <meta name="title" content="Doclab - home">
+  <meta name="description" content="This is a medical html template made by shohammallick">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Rubik:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-bg.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.svg" width="136" height="46" alt="Doclab home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="136" height="46" alt="Doclab home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="clsoe menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link title-md">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#doctor" class="navbar-link title-md">Doctors</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link title-md">Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link title-md">Articles</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#contact" class="navbar-link title-md">Contact</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link title-md">About Us</a>
+          </li>
+
+        </ul>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.doctorbangladesh.com/" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.doctorbangladesh.com/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.doctorbangladesh.com/" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.doctorbangladesh.com/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.doctorbangladesh.com/" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <a href="https://www.doctorbangladesh.com/" class="btn has-before title-md">Make Appointment</a>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" style="background-image: url('./assets/images/hero-bg.png')" aria-label="home" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle has-before" data-reveal="left">Welcome To Doclab.</p>
+
+            <h1 class="headline-lg hero-title" data-reveal="left">
+              Find Nearest <br>
+              Doctor.
+            </h1>
+
+            <div class="hero-card" data-reveal="left">
+
+              <p class="title-lg card-text">
+                Search Doctors. Clinics. Hospitals. etc.
+              </p>
+
+              <div class="wrapper">
+
+                <div class="input-wrapper title-lg">
+                  <input type="text" name="location" placeholder="Locations" class="input-field">
+
+                  <ion-icon name="location"></ion-icon>
+                </div>
+
+                <button class="btn has-before">
+                  <ion-icon name="search"></ion-icon>
+
+                  <span class="span title-md">Find Now</span>
+                </button>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <figure class="hero-banner" data-reveal="right">
+            <img src="./assets/images/hero-banner.png" width="590" height="517" loading="eager" alt="hero banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" aria-label="service" id="services">
+        <div class="container">
+          
+
+          <ul class="service-list">
+            <h2 class="headline-md" data-reveal="left">Our Services</h2>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Psychiatry</a>
+                </h3>
+
+                <p class="card-text">
+                  We provide expert mental health care, offering diagnosis, treatment, and support for a wide range of psychiatric conditions. Our compassionate team is here to help you achieve emotional well-being.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about psychiatry" >
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Gynecology</a>
+                </h3>
+
+                <p class="card-text">
+                  Comprehensive women’s health services, including preventive care, diagnosis, and treatment for reproductive health issues. Our specialists are dedicated to supporting women at every stage of life.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Gynecology">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Pulmonology</a>
+                </h3>
+
+                <p class="card-text">
+                 Specialized care for lung and respiratory conditions, including asthma, COPD, pneumonia, and other breathing disorders. Our experts provide accurate diagnosis and advanced treatment to help breathe easier.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pulmonology">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Orthopedics</a>
+                </h3>
+
+                <p class="card-text">
+                  Comprehensive care for bones, joints, muscles, and ligaments. Our specialists provide expert diagnosis, treatment, and rehabilitation for injuries and musculoskeletal conditions to help restore mobility and strength.
+                </p><br>
+
+                <button class="btn-circle" aria-label="read more about Orthopedics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Cardiology</a>
+                </h3>
+
+                <p class="card-text">
+                 Specialized care for heart and cardiovascular conditions, including hypertension, arrhythmia, heart disease, and heart failure. Our cardiologists provide precise diagnosis and advanced treatments to keep your heart healthy.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pulmonology">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Pediatrics</a>
+                </h3>
+
+                <p class="card-text">
+                 Comprehensive care for infants, children, and adolescents, covering growth, development, immunizations, and common childhood illnesses. Our pediatricians ensure your child’s health and well-being at every stage.<br>
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Osteology</a>
+                </h3>
+
+                <p class="card-text">
+                 Focused care on the study and treatment of bones, including bone diseases like osteoporosis, fractures, and skeletal health management to maintain strong and healthy bones.<br>
+                </p><br><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Neurology</a>
+                </h3>
+
+                <p class="card-text">
+                 Specialized care for disorders of the nervous system, including the brain, spinal cord, and nerves. We diagnose and treat conditions like epilepsy, stroke, migraines, and neuropathies.<br>
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Urology</a>
+                </h3>
+
+                <p class="card-text">
+                 Expert care for urinary tract and male reproductive system conditions, including kidney stones, infections, and prostate health.<br>
+                </p><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Ophthalmology</a>
+                </h3>
+
+                <p class="card-text">
+                 Specialized care for eye health, vision correction, and treatment of eye diseases like glaucoma, cataracts, and retinal disorders.<br>
+                </p><br><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+             <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Dermatology</a>
+                </h3>
+
+                <p class="card-text">
+                 Comprehensive care for skin, hair, and nail conditions, including acne, eczema, and skin cancer screening.<br>
+                </p><br><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Oncology</a>
+                </h3>
+
+                <p class="card-text">
+                 Comprehensive cancer care offering early detection, precise diagnosis, and personalized treatment plans including chemotherapy, radiation therapy, and surgery, all supported by compassionate patient-centered care.<br>
+                </p><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Gastroenterology</a>
+                </h3>
+
+                <p class="card-text">
+                 Specialized care for digestive system conditions, including ulcers, liver disease, irritable bowel syndrome, and gastrointestinal cancers. Our team offers advanced diagnosis and treatment for optimal digestive health.<br>
+                </p><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://www.doctorbangladesh.com/">Radiology</a>
+                </h3>
+
+                <p class="card-text">
+                 Advanced imaging services including X-rays, CT scans, MRI, and ultrasound to aid accurate diagnosis and treatment planning. Our radiologists collaborate closely with other specialists to ensure timely, precise results for optimal patient care.
+                </p><br>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="headline-sm card-title">
+                  <a href="https://m.arogga.com/">Medicine, ICU Care & 24/7 Superfast Ambulance Service</a>
+                </h3>
+
+                <p class="card-text">
+                 Comprehensive medical care supported by advanced ICU facilities and fully equipped operation theaters. Our 24/7 superfast ambulance service ensures prompt emergency response and transport.
+                </p>
+
+                <button class="btn-circle" aria-label="read more about Pediatrics">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle title-lg has-after" id="about-label" data-reveal="left">About Us</p>
+
+            <h2 class="headline-md" data-reveal="left">Experienced Workers</h2>
+
+            <p class="section-text" data-reveal="left">
+              Our team consists of highly skilled professionals dedicated to providing top-quality healthcare services. With years of experience, we ensure compassionate, reliable, and expert care for all our patients.
+            </p>
+
+            <ul class="tab-list" data-reveal="left">
+
+              <li>
+                <button class="tab-btn active">Vision</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Mission</button>
+              </li>
+
+              <li>
+                <button class="tab-btn">Strategy</button>
+              </li>
+
+            </ul>
+
+            <p class="tab-text" data-reveal="left">
+             <b>Our Commitment</b> <br>We are dedicated to providing high-quality healthcare services that prioritize patient safety, comfort, and well-being. Through continuous innovation and compassionate care, we aim to meet the needs of every individual we serve.
+            </p>
+
+            <div class="wrapper">
+
+              <ul class="about-list">
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Excellence in patient care</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Commitment to ethical practices</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Continuous improvement through research and education</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Focus on community health and preventive care</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Ensuring dignity, respect, and cultural sensitivity for all patients</span>
+                </li>
+
+                <li class="about-item" data-reveal="left">
+                  <ion-icon name="checkmark-circle-outline"></ion-icon>
+
+                  <span class="span">Embracing advanced technology to enhance diagnosis and treatment</span>
+                </li>
+
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <figure class="about-banner" data-reveal="right">
+            <img src="./assets/images/about-banner.png" width="554" height="678" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #LISTING
+      -->
+
+      <section class="section listing" aria-labelledby="listing-label" id="doctor">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <p class="section-subtitle title-lg" id="listing-label" data-reveal="left">Doctors Listing</p>
+
+              <h2 class="headline-md" data-reveal="left">Browse by Specialist</h2>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Psychiatry</h3>
+
+                  <p class="card-text">Expert care for mental health and emotional well-being.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Gynecology</h3>
+
+                  <p class="card-text">Comprehensive care for women’s reproductive health.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pulmonology</h3>
+
+                  <p class="card-text">Specialized treatment for respiratory and lung conditions.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Orthopedics</h3>
+
+                  <p class="card-text">Care for bones, joints, muscles, and movement disorders.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-6.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Pediatrics</h3>
+
+                  <p class="card-text">Expert health care and support for infants, children, and teenagers </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-7.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Osteology</h3>
+
+                  <p class="card-text">Comprehensive care for bones, bone diseases, and skeletal health.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Cardiology</h3>
+
+                  <p class="card-text">Diagnosis and treatment of heart and cardiovascular diseases.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Neurology</h3>
+
+                  <p class="card-text">Specialized care for nervous system disorders and brain health.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-1.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Urology</h3>
+
+                  <p class="card-text">Care for urinary tract and male reproductive health.</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="listing-card" data-reveal="bottom">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-5.png" width="71" height="71" loading="lazy" alt="icon">
+                </div>
+
+                <div>
+                  <h3 class="headline-sm card-title">Medicine</h3>
+
+                  <p class="card-text">Expert diagnosis and treatment of adult diseases and health conditions.</p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" aria-labelledby="blog-label" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle title-lg text-center" id="blog-label" data-reveal="bottom">
+            News & Article
+          </p>
+
+          <h2 class="section-title headline-md text-center" data-reveal="bottom">Latest Articles</h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr. Ayesha Rahman</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Oncologist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Could Intermittent Fasting Reduce Breast Cancer?</h3>
+
+                <time class="title-sm date" datetime="2025-01-28">28 January, 2025</time>
+
+                <p class="card-text">
+                  Intermittent fasting is gaining attention for its potential health benefits. Could it play a role in reducing the risk of breast cancer? Learn what recent studies suggest.
+                </p>
+
+                <a href="#blog" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr. Farhan Ahmed</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Pediatric Specialist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">Give Children More Autonomy During the Pandemic.</h3>
+
+                <time class="title-sm date" datetime="2025-01-28">28 January, 2025</time>
+
+                <p class="card-text">
+                 Supporting children’s independence can help their emotional well-being during challenging times like the pandemic. Learn tips from experts on encouraging healthy autonomy.
+                </p>
+
+                <a href="#blog" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card has-before has-after" data-reveal="bottom">
+
+                <div class="meta-wrapper">
+
+                  <div class="card-meta">
+                    <ion-icon name="person-outline"></ion-icon>
+
+                    <span class="span">By Dr. Sameer Hossain</span>
+                  </div>
+
+                  <div class="card-meta">
+                    <ion-icon name="folder-outline"></ion-icon>
+
+                    <span class="span">Hepatologist</span>
+                  </div>
+
+                </div>
+
+                <h3 class="headline-sm card-title">How Do Binge Eating and Drinking Impact the Liver?</h3>
+
+                <time class="title-sm date" datetime="2025-01-28">28 January, 2025</time>
+
+                <p class="card-text">
+                  Binge eating and excessive alcohol intake can severely affect liver function. Discover how these habits increase risk of liver disease and what steps you can take to protect health.
+                </p>
+
+                <a href="#blog" class="btn-text title-lg">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')" id="contact">
+    <div class="container">
+
+      <div class="section footer-top">
+
+        <div class="footer-brand" data-reveal="bottom">
+
+          <a href="#home" class="logo">
+            <img src="./assets/images/logo.svg" width="136" height="46" loading="lazy" alt="Doclab home">
+          </a>
+
+          <ul class="contact-list has-after">
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="mail-open-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Main Email : <a href="mailto:contact@website.com" class="contact-link">contact@&shy;doclab.website.com</a>
+                </p>
+
+                <p>
+                  Inquiries : <a href="mailto:Info@mail.com" class="contact-link">Info@mail.com</a>
+                </p>
+              </div>
+
+            </li>
+
+            <li class="contact-item">
+
+              <div class="item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+
+              <div>
+                <p>
+                  Office Telephone : <a href="tel:+8801812487092" class="contact-link">+880 1812487092</a>
+                </p>
+
+                <p>
+                  Mobile : <a href="tel:+8801812487092" class="contact-link">+880 1812487092</a>
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">About Us</p>
+
+          <p class="text">
+            At Doclab, we are committed to providing compassionate, high-quality healthcare services to our community.<br> Our experienced team of professionals works tirelessly 24/7 to ensure the best patient care through innovation, expertise, and personalized attention.<br><br><b>“Your Health, Our Priority.”</b>
+          </p>
+
+          <address class="address">
+            <ion-icon name="map-outline"></ion-icon>
+
+            <span class="text">
+              Chittagong, Bangladesh-1000
+            </span>
+          </address>
+
+        </div>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a href="#services" class="text footer-link">Medical Conditions We Treat</a>
+          </li>
+
+          <li>
+            <a href="#doctor" class="text footer-link">Find a Specialist</a>
+          </li>
+
+          <li>
+            <a href="#services" class="text footer-link">How Our Care Works</a>
+          </li>
+
+          <li>
+            <a href="#doctor" class="text footer-link">Treatments & Procedures</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="text footer-link">Latest Health News</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="text footer-link">Contact & Appointment</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list" data-reveal="bottom">
+
+          <li>
+            <p class="headline-sm footer-list-title">Useful Links</p>
+          </li>
+
+          <li>
+            <a href="#contact" class="text footer-link">Conditions</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="text footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#services" class="text footer-link">Our Services</a>
+          </li>
+
+          <li>
+            <a href="#about" class="text footer-link">Join as a Doctor</a>
+          </li>
+
+          <li>
+            <a href="#about" class="text footer-link">New Patient Registration</a>
+          </li>
+
+          <li>
+            <a href="#doctor" class="text footer-link">Our Team</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list" data-reveal="bottom">
+
+          <p class="headline-sm footer-list-title">Subscribe</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email" placeholder="Email" class="input-field title-lg">
+
+            <button type="submit" class="btn has-before title-md">Subscribe</button>
+          </form>
+
+          <p class="text">
+            Get the latest updates and health news via email. Any time you may unsubscribe.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="text copyright" href="https://www.linkedin.com/in/shoham-mallick-992b0a329/">
+          &copy; Doclab 2025 | All Rights Reserved by <b>Shoham Mallick</b>
+        </p>.
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/share/1GEXfmn8Xo/" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="shohammallick528@gmail.com" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/shoham-mallick-techinnovator" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-pinterest"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
