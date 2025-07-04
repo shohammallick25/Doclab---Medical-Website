@@ -1,4 +1,7 @@
 # Doclab---Medical-Website
+
+![image](https://github.com/user-attachments/assets/8ba3e140-83fb-4ab4-8fc5-9bade959c135)
+
 A modern, responsive medical website template built with HTML, CSS &amp; JavaScript — designed by Shoham Mallick for clinics, hospitals, and doctor directories.
 
 This is a medical HTML template made by Shoham Mallick. It is designed for clinics, hospitals, and doctor directory websites.
